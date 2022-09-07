@@ -35,10 +35,10 @@ export default function MovieDetails() {
   return (
     <div>
         { data ? (
-      <Container className="flex">
+      <Container>
         <Row className="justify-content-center my-3 align-center">
-        <Col className="text-center" >
-            <div className="text-light">
+        <Col className="text-center flex" >
+            <div className="text-light flex2">
                 <h2 className=" mt-3 mb-3">{data.Title}</h2>
                 <img src={data.Poster} alt="" />
                 <h3 className=" mt-3 mb-2">Released: {data.Released}</h3>
@@ -50,7 +50,7 @@ export default function MovieDetails() {
             </div>
                     {
                         show && (
-                    <div>
+                    <div className="flex1">
                     <ListGroup variant="flush mt-3" >
                     <ListGroup.Item className=" lista text-light">{data.Runtime }</ListGroup.Item>
                     <ListGroup.Item className=" lista text-light">{data.Plot }</ListGroup.Item>

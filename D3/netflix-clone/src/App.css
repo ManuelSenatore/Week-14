@@ -69,3 +69,14 @@ a {
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 800px) {
+  .flex{
+    display: flex;
+  }
+  .flex1{
+    flex: 1;
+  }
+  .flex2 {
+    flex: 2;
+  }
+}
