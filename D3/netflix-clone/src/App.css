@@ -1,0 +1,71 @@
+
+.MyBrand{
+  width: 100px;
+  height: 55px;
+}
+#navDropdown{
+  border: 1px solid gray;
+  padding: 3px;
+  font-size: .8em;
+}
+.dropdown-menu{
+  background-color: #221f1f !important;
+}
+a {
+  text-decoration: none;
+}
+.img-fluid{
+  transition: transform 0.2s;
+}
+.img-fluid:hover{
+ transform: scale(1.1);
+ }
+ .color-nav{
+  background-color: #221f1f !important;
+ }
+    @media screen and (max-width: 991px) {
+      .film {
+        width: 300px !important;
+        height: 500px !important;
+      }
+    }
+ @media screen and (min-width: 992px){
+ .film{
+  width: 400px !important;
+  height: 200px !important;
+ }
+ }
+ .my-footer a {
+   color: #838383 !important;
+ }
+
+ .my-footer .my-copyright {
+   color: #838383 !important;
+   text-align: left;
+ }
+
+ .my-button {
+   border: 1px solid #838383;
+ }
+ .budka-saga {
+   transition: scroll 1s;
+ }
+
+ .budka-saga::-webkit-scrollbar {
+   display: none;
+ }
+
+ .budka-button {
+   border: none;
+   background-color: transparent;
+   color: white;
+   font-size: 3rem;
+ }
+.lista {
+  background-color: #221f1f !important;
+}
+.centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
