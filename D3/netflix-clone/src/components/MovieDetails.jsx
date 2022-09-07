@@ -45,7 +45,7 @@ export default function MovieDetails() {
                 <Button variant='dark' onClick={ () => {
                         setShow(!show)
                     } }>
-                        {show ? "Close" : "Others Informations"}
+                        {show ? "Close" : "More Information"}
                     </Button>
             </div>
                     {
