@@ -44,10 +44,7 @@ const SliderWeather = () => {
     }
   return (
     <Col className= 'slider'>
-    <div onClick={() => {
-        
-    }}
-     className= 'section'>
+    <div className= 'section'>
     <img 
     width="80"
     height="80"
