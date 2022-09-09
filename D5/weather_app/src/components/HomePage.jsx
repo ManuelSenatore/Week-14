@@ -59,3 +59,6 @@ const HomePage = () => {
 }
 
 export default HomePage
+
+// `https://api.openweathermap.org/data/2.5/forecast?q=${props.city},it&APPID=c257347b25e5e8b03eb83e2d6b5ae1d1&lang=IT` fetch per il meteo della settimana
+
