@@ -65,6 +65,9 @@
   color: white;
   background: linear-gradient(0.50turn, #3f87a6, #0c1596);
   transition: transform 0.2s;
+  cursor: pointer;
+  margin: 1.5em;
+  font-size: 15px;
 }
 .section:hover{
   transform: scale(1.1);
@@ -72,4 +75,14 @@
 .space {
   margin-left: 10px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 480px){
+  .section{
+    font-size: 10px;
+  }
+  .imgMeteo {
+    width: 50px;
+    height: 50px;
+  }
 }
