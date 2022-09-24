@@ -9,14 +9,17 @@ import withRouter from "../helpers/withRouter";
 
 
 class MyNavbar extends Component {
+
     render() {
         return (
             <div>
                 <Navbar className="color-nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Container fluid>
-                        <Navbar.Brand href="#home">
+                     
+                            <Link to="/">
                             <img className="MyBrand" src="assets/logo.png" alt="logo" />
-                        </Navbar.Brand>
+                            </Link>
+                       
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">

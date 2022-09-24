@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Container, } from "react-bootstrap";
+import { Container, Row, } from "react-bootstrap";
 import { CaretLeftFill, CaretRightFill } from 'react-bootstrap-icons'
 import MyCard from "./MyCard";
 
@@ -16,12 +16,13 @@ class MyGallery extends Component {
         return(
             <Container className="text-light" fluid>
                 <h3>{this.props.title}</h3>
-                <div className=" row row-cols-1 flex-lg-nowrap overflow-scroll row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center budka-saga">                        {
+                <Row className=" row-cols-1 flex-lg-nowrap overflow-scroll row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center budka-saga">
+                        {                    
                             this.props.gallery.map(film => (
                                 <MyCard key={film.id} img= {film.Poster} id={film.imdbID} />
                             ))
                         }
-                </div>
+                </Row>
                 <div className='d-none d-lg-flex justify-content-between pb-3'>
                     <button className='budka-button' onClick={(e) => {
                         this.scrollRight(this.props.n);
